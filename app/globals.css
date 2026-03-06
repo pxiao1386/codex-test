@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-cream text-coffee;
+}
+
+.card {
+  @apply rounded-2xl bg-white/90 p-4 shadow-soft;
+}
+
+.chip {
+  @apply rounded-full bg-blush px-3 py-1 text-sm;
+}
